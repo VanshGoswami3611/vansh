@@ -1,0 +1,17 @@
+/*ADVANCE SELECTOR*/
+
+/*ATTRIBUTE selector- this is comment*/
+input[type="text"]{
+    border: 2px solid red;
+}
+input[type="password"]{
+    border: 2px dashed blue;
+}
+/*child selector*/
+ul>li{
+    color: aqua;
+}
+/*sibling selector*/
+h1+p+p{
+    background-color: blueviolet;
+}
