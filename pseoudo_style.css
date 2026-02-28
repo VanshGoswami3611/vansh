@@ -1,0 +1,41 @@
+/*ADVANCE SELECTOR*/
+
+/*ATTRIBUTE selector- this is comment*/
+input[type="text"]{
+    border: 2px solid red;
+}
+input[type="password"]{
+    border: 2px dashed blue;
+}
+/*child selector*/
+ul>li{
+    color: aqua;
+}
+/*sibling selector*/
+h1+p+p{
+    background-color: rgb(4, 32, 75);
+}
+
+/*PSEUDO CLASSES*/
+/*hover*/
+a:hover{
+    color: rgb(231, 132, 11);
+}
+/*nth-child*/
+li:nth-child(2){
+     background-color: brown;
+}
+/*not-selector*/
+div:not(.c1){
+    font-size: 30px;
+}
+
+/*PSEUDO ELEMENTS*/
+a::after{
+    content:"*";
+    color: rgb(100, 116, 10);
+}
+div::first-letter{
+    color:rgb(255, 0, 0)
+    font: size 30px;
+}
