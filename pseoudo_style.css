@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*ADVANCE SELECTOR*/
 
 /*ATTRIBUTE selector- this is comment*/
@@ -38,4 +39,22 @@ a::after{
 div::first-letter{
     color:rgb(255, 0, 0)
     font: size 30px;
+=======
+/*ADVANCE SELECTOR*/
+
+/*ATTRIBUTE selector- this is comment*/
+input[type="text"]{
+    border: 2px solid red;
+}
+input[type="password"]{
+    border: 2px dashed blue;
+}
+/*child selector*/
+ul>li{
+    color: aqua;
+}
+/*sibling selector*/
+h1+p+p{
+    background-color: blueviolet;
+>>>>>>> 25709ec14d7c1851b0b0fff0766db18e12a66335
 }
