@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+ <HEAD>
 /*ADVANCE SELECTOR*/
 
 /*ATTRIBUTE selector- this is comment*/
@@ -56,5 +56,5 @@ ul>li{
 /*sibling selector*/
 h1+p+p{
     background-color: blueviolet;
->>>>>>> 25709ec14d7c1851b0b0fff0766db18e12a66335
+
 }
